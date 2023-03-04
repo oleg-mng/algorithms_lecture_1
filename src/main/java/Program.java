@@ -7,7 +7,7 @@ public class Program {
 //        List<Integer> availableDivider = findSimpleNumbers(100);
 //        for (Integer integer : availableDivider) {
 //            System.out.println(integer);
-//    }
+
         AtomicInteger counter = new AtomicInteger(0);
         int fib = fib(10,counter);
         System.out.println("Fib: "+ fib);
@@ -20,7 +20,6 @@ public class Program {
             if (number % i == 0) {
                 result.add(i);
             }
-
         }
         return result;
     }

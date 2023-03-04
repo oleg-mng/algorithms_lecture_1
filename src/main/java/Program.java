@@ -12,7 +12,17 @@ public class Program {
         int fib = fib(10,counter);
         System.out.println("Fib: "+ fib);
         System.out.println("Counter: "+counter.get());
+
+        int fib1 = fib(11,counter);
+        System.out.println("Fib: "+ fib1);
+        System.out.println("Counter: "+counter.get());
+
+        int fib2 = fib(12,counter);
+        System.out.println("Fib: "+ fib2);
+        System.out.println("Counter: "+counter.get());
+
         }
+
 
     public static List<Integer> findAvailableDivider(int number) {
         List<Integer> result = new ArrayList<>();
